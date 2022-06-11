@@ -35,6 +35,14 @@ ol {
     box-shadow: 0px 2px 5px #000000;
 }
 
+.banner__img {
+    width: 100%;
+}
+
+.banner {
+    font-size: 0;
+}
+
 .menu {
     padding: 20px 0;
     max-width: 640px;
@@ -68,7 +76,7 @@ ol {
 
 .about_me {
     background-color: #F6F6F6;
-   
+
 }
 
 .about_me_wrapper {
@@ -76,74 +84,85 @@ ol {
     margin: 0 auto;
     text-align: center;
     padding: 100px 0px;
-  
+
 }
 
 .title {
     font-size: 34px;
     font-weight: 700;
-    color: #070707; 
-    
+    color: #070707;
+
 }
 
-.about_me_wrapper p{
+.about_me_wrapper p {
     padding-top: 30px;
     font-size: 18px;
     font-weight: 400;
     color: #070707;
 }
-.skills{
+
+.skills {
     padding: 100px 0px;
 }
-.skills_wrapper{
-   
+
+.skills_wrapper {
+
     margin: 0 auto;
     max-width: 940px;
     text-align: center;
 }
-.skills_wrapper p{
+
+.skills_wrapper p {
     font-size: 18px;
     font-weight: 400;
     color: #070707;
 }
-.all_skills{
+
+.all_skills {
     display: flex;
     justify-content: space-between;
     padding-top: 75px;
 }
-.all_skills_item{
-   
+
+.all_skills_item {
+
     max-width: 165px;
-  
+
 }
-.skills_item{
+
+.skills_item {
     margin-bottom: 60px;
     margin-top: 25px;
     text-align: center;
     font-size: 14px;
     color: #828282;
 }
-.portfolio{
+
+.portfolio {
     background-color: #F6F6F6;
 }
-.portfolio_wrapper{
+
+.portfolio_wrapper {
     max-width: 940px;
     margin: 0 auto;
     text-align: center;
-   
+
 
 }
-.portfolio_img{
+
+.portfolio_img {
     padding-bottom: 15px;
 }
-.title_portfolio{
+
+.title_portfolio {
     padding-top: 120px;
     padding-bottom: 65px;
     font-size: 34px;
     font-weight: 700;
-    color: #070707; 
+    color: #070707;
 }
-.portfolio_wrapper a{
+
+.portfolio_wrapper a {
     display: inline-block;
     font-size: 18px;
     font-weight: 400;
@@ -151,28 +170,33 @@ ol {
     max-width: 260px;
     text-align: center;
     margin-bottom: 130px;
-    
+
 }
-.footer{
+
+.footer {
     margin: 100px auto;
     max-width: 340px;
     text-align: center;
-    
+
 }
-.footer p{
+
+.footer p {
     font-size: 18px;
     font-weight: 400;
     color: #070707;
 }
-.social{
-  display: flex;
-  justify-content: space-between;
+
+.social {
+    display: flex;
+    justify-content: space-between;
 }
-.social img{
-   margin-top: 40px;
-   
+
+.social img {
+    margin-top: 40px;
+
 }
-button{
+
+button {
     width: 180px;
     height: 40px;
     background-color: #070707;
@@ -181,7 +205,8 @@ button{
     margin-top: 80px;
     font-size: 15px;
 }
-.footer_end{
+
+.footer_end {
     font-size: 14px;
     font-weight: 400;
     color: #828282;
@@ -189,10 +214,4 @@ button{
     max-width: 240px;
     margin: 45px auto;
     margin-bottom: 160px;
-}
-.banner__img{
-    width: 100%;
-}
-.banner{
-    font-size: 0;
 }
